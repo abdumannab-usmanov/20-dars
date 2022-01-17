@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #6A96D8;
+    padding: 23px 29px 23px 24px;
+    border-top-right-radius:14px ;
+    border-top-left-radius: 14px;
+    margin-top: 119px;
+}
+
+
+.header__content{
+    display: flex;
+    align-items: center;
+    
+    
+    
+    &::before{
+        content: "";
+        display: block;
+        width: 6px;
+        height: 6px;
+        background-image: url('../../img/Ellipse\ 1.svg');
+        margin-right: 10px;   
+    }
+    
+}
+
+.header__title{
+    
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    margin: 0;
+    }
+    
+    .header__img{
+        width: 24px;
+        height: 24px;
+        margin-left: auto;
+    }
